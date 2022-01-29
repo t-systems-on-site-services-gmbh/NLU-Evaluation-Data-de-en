@@ -29,7 +29,7 @@ answer_de_nan = df[df["answer_de"].isnull()]
 Copyright (c) the authors of [xliuhw/NLU-Evaluation-Data](https://github.com/xliuhw/NLU-Evaluation-Data)<br/>
 Copyright (c) 2022 Philip May
 
-All data are released under the Creative Commons Attribution 4.0
+All data is released under the Creative Commons Attribution 4.0
 International License (CC BY 4.0).
 
 You should have received a copy of the license along with this dataset.
