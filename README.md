@@ -14,7 +14,7 @@ import pandas as pd
 df = pd.read_csv("NLU-Data-Home-Domain-Annotated-All-de-en.csv")
 ```
 
-## Quirks
+## Dataset Quirks
 The original dataset contains some `NaN` values in the `answer` column.
 This means that there are also `NaN` values in the translations (`answer_de` column).
 These lines can be filtered as follows:
