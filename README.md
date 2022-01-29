@@ -1,6 +1,8 @@
 # NLU Evaluation Data de-en
 This project contains natural languageg data for human-robot interaction
 in home domain which we collected and annotated for evaluating NLU Services/platforms.
+The detailed paper on this dataset can be found at arXiv.org:
+[Benchmarking Natural Language Understanding Services for building Conversational Agents](https://arxiv.org/abs/1903.05566) 
 
 This dataset builds on the annotated data of the [xliuhw/NLU-Evaluation-Data](https://github.com/xliuhw/NLU-Evaluation-Data)
 repository. We have added an additional column (`answer_de`)
