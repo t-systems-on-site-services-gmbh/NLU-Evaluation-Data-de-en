@@ -2,8 +2,10 @@
 This project contains natural languageg data for human-robot interaction
 in home domain which we collected and annotated for evaluating NLU Services/platforms.
 
-This dataset builds on the annotated data of the [xliuhw/NLU-Evaluation-Data](https://github.com/xliuhw/NLU-Evaluation-Data) repository. We have added an additional column (`answer_de`)
+This dataset builds on the annotated data of the [xliuhw/NLU-Evaluation-Data](https://github.com/xliuhw/NLU-Evaluation-Data)
+repository. We have added an additional column (`answer_de`)
 by translating the texts in column `answer` into German.
+The translation was made with [DeepL](https://www.deepl.com/translator).
 
 ## Load the Dataset
 The dataset can be loaded with [pandas](https://pandas.pydata.org/):
