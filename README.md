@@ -1,4 +1,4 @@
-# NLU Evaluation Data de-en
+# NLU Evaluation Data - German and English
 This project contains natural languageg data for human-robot interaction
 in home domain which we collected and annotated for evaluating NLU Services/platforms.
 The detailed paper on this dataset can be found at arXiv.org:
