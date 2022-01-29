@@ -1,5 +1,5 @@
 # NLU Evaluation Data - German and English
-This dataset contains a multi-domain (21 domains) German and English dataset with 25K user utterances for human-robot interaction
+This dataset contains a labeled multi-domain (21 domains) German and English dataset with 25K user utterances for human-robot interaction
 in home domain. It is collected and annotated for evaluating NLU services and platforms.
 The detailed paper on this dataset can be found at arXiv.org:
 [Benchmarking Natural Language Understanding Services for building Conversational Agents](https://arxiv.org/abs/1903.05566) 
