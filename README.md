@@ -30,7 +30,6 @@ Copyright (c) the authors of [xliuhw/NLU-Evaluation-Data](https://github.com/xli
 Copyright (c) 2022 Philip May
 
 All data is released under the Creative Commons Attribution 4.0
-International License (CC BY 4.0).
-
+International License (CC BY 4.0). 
 You should have received a copy of the license along with this dataset.
 If not, see http://creativecommons.org/licenses/by/4.0/.
