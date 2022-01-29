@@ -1,6 +1,6 @@
 # NLU Evaluation Data - German and English
-This project contains 25,716 samples of natural language data for human-robot interaction
-in home domain which we collected and annotated for evaluating NLU Services/platforms.
+This dataset contains a multi-domain (21 domains) German and English dataset with 25K user utterances for human-robot interaction
+in home domain. It is collected and annotated for evaluating NLU services and platforms.
 The detailed paper on this dataset can be found at arXiv.org:
 [Benchmarking Natural Language Understanding Services for building Conversational Agents](https://arxiv.org/abs/1903.05566) 
 
