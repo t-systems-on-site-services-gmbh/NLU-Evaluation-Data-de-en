@@ -15,10 +15,15 @@ by translating the texts in column `answer` into German.
 The translation was made with [DeepL](https://www.deepl.com/translator).
 
 ## `nlu_similarity_de.csv`
-This dataset contains German sentence pairs with a similarity score.
+This dataset contains 1,127 German sentence pairs with a similarity score.
 The similarity score follows the approach in the [STSbenchmark dataset](https://ixa2.si.ehu.eus/stswiki/index.php/STSbenchmark).
-These are explained in more detail in paper
+These are explained in more detail in the paper
 [SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation](https://aclanthology.org/S17-2001.pdf).
+
+The dataset can be used to train and improve [SentenceTransformer models](https://www.sbert.net/) like our
+[Cross English & German RoBERTa for Sentence Embeddings](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer).
+
+The following table describes our label scheme in detail:
 
 | similarity_score | German explanation | English explanation
 |------------------|--------------------|----------------------
