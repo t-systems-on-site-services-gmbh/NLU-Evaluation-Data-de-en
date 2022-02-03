@@ -32,7 +32,7 @@ The following table describes our label scheme in detail:
 | 3 | ungefähr gleichwertig - aber einige wichtige Details unterscheiden sich | roughly equivalent - but some important details differ
 | 2 | nicht gleichwertig - haben aber sehr ähnliche gemeinsame Details | not equivalent - but have very similar common details
 | 1 | nicht gleichwertig - betreffen aber dasselbe Thema | not equivalent - but concern the same subject
-| 0 | sind völlig unähnlich | are completely dissimilar
+| 0 | völlig unähnlich | completely dissimilar
 
 ## Load the Dataset (`NLU-Data-Home-Domain-Annotated-All-de-en.csv`)
 The dataset can be loaded with [pandas](https://pandas.pydata.org/):
