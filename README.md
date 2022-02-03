@@ -2,7 +2,7 @@
 This repository contains two dataset:
 
 1. `NLU-Data-Home-Domain-Annotated-All-de-en.csv`: This dataset contains a labeled multi-domain (21 domains) German and English dataset with 25K user utterances for human-robot interaction.
-2. `nlu_similarity_de.csv`: This dataset contains German sentence pairs from `NLU-Data-Home-Domain-Annotated-All-de-en.csv` with semantic similarity scores.
+2. `NLU-Data-Home-Domain-similarity-de.csv`: This dataset contains German sentence pairs from `NLU-Data-Home-Domain-Annotated-All-de-en.csv` with semantic similarity scores.
 
 ## `NLU-Data-Home-Domain-Annotated-All-de-en.csv`
 This dataset is collected and annotated for evaluating NLU services and platforms.
@@ -14,7 +14,7 @@ repository. We have added an additional column (`answer_de`)
 by translating the texts in column `answer` into German.
 The translation was made with [DeepL](https://www.deepl.com/translator).
 
-## `nlu_similarity_de.csv`
+## `NLU-Data-Home-Domain-similarity-de.csv`
 This dataset contains 1,127 German sentence pairs with a similarity score.
 The similarity score follows the approach in the [STSbenchmark dataset](https://ixa2.si.ehu.eus/stswiki/index.php/STSbenchmark).
 These are explained in more detail in the paper
@@ -41,11 +41,11 @@ import pandas as pd
 df = pd.read_csv("NLU-Data-Home-Domain-Annotated-All-de-en.csv")
 ```
 
-## Load the Dataset (`nlu_similarity_de.csv`)
+## Load the Dataset (`NLU-Data-Home-Domain-similarity-de.csv`)
 The dataset can be loaded with [pandas](https://pandas.pydata.org/):
 ```python
 import pandas as pd
-df = pd.read_csv("nlu_similarity_de.csv")
+df = pd.read_csv("NLU-Data-Home-Domain-similarity-de.csv")
 ```
 
 ## Dataset Quirks (`NLU-Data-Home-Domain-Annotated-All-de-en.csv`)
