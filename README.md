@@ -1,5 +1,5 @@
 # NLU Evaluation Data - German and English + Similarity
-This repository contains two dataset:
+This repository contains two datasets:
 
 1. `NLU-Data-Home-Domain-Annotated-All-de-en.csv`: This dataset contains a labeled multi-domain (21 domains) German and English dataset with 25K user utterances for human-robot interaction.
 2. `NLU-Data-Home-Domain-similarity-de.csv`: This dataset contains German sentence pairs from `NLU-Data-Home-Domain-Annotated-All-de-en.csv` with semantic similarity scores.
